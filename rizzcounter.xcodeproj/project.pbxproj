@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52F8924C29A4495A0073F06E /* rizzcounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8924B29A4495A0073F06E /* rizzcounterApp.swift */; };
+		52F8924E29A4495A0073F06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8924D29A4495A0073F06E /* ContentView.swift */; };
+		52F8925029A4495C0073F06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F8924F29A4495C0073F06E /* Assets.xcassets */; };
+		52F8925329A4495C0073F06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F8925229A4495C0073F06E /* Preview Assets.xcassets */; };
+		52F8925C29A44AC00073F06E /* RizzModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52F8925A29A44AC00073F06E /* RizzModel.xcdatamodeld */; };
+		52F8925E29A44BB10073F06E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8925D29A44BB10073F06E /* DataController.swift */; };
+		52F8926229A44EC10073F06E /* AddRizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8926129A44EC10073F06E /* AddRizzView.swift */; };
+		52F8926429A451450073F06E /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8926329A451450073F06E /* TimeFormatting.swift */; };
+		52F8926629A45BCC0073F06E /* EditRizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8926529A45BCC0073F06E /* EditRizz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52F8924829A4495A0073F06E /* rizzcounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rizzcounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F8924B29A4495A0073F06E /* rizzcounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rizzcounterApp.swift; sourceTree = "<group>"; };
+		52F8924D29A4495A0073F06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52F8924F29A4495C0073F06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F8925229A4495C0073F06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52F8925B29A44AC00073F06E /* RizzModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RizzModel.xcdatamodel; sourceTree = "<group>"; };
+		52F8925D29A44BB10073F06E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		52F8926129A44EC10073F06E /* AddRizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRizzView.swift; sourceTree = "<group>"; };
+		52F8926329A451450073F06E /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		52F8926529A45BCC0073F06E /* EditRizz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRizz.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F8924529A4495A0073F06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F8923F29A4495A0073F06E = {
+			isa = PBXGroup;
+			children = (
+				52F8924A29A4495A0073F06E /* rizzcounter */,
+				52F8924929A4495A0073F06E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F8924929A4495A0073F06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F8924829A4495A0073F06E /* rizzcounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F8924A29A4495A0073F06E /* rizzcounter */ = {
+			isa = PBXGroup;
+			children = (
+				52F8924B29A4495A0073F06E /* rizzcounterApp.swift */,
+				52F8926029A44E910073F06E /* Helpers */,
+				52F8925F29A44E710073F06E /* Views */,
+				52F8925929A44A780073F06E /* DataModel */,
+				52F8924F29A4495C0073F06E /* Assets.xcassets */,
+				52F8925129A4495C0073F06E /* Preview Content */,
+			);
+			path = rizzcounter;
+			sourceTree = "<group>";
+		};
+		52F8925129A4495C0073F06E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52F8925229A4495C0073F06E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52F8925929A44A780073F06E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				52F8925A29A44AC00073F06E /* RizzModel.xcdatamodeld */,
+				52F8925D29A44BB10073F06E /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		52F8925F29A44E710073F06E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52F8924D29A4495A0073F06E /* ContentView.swift */,
+				52F8926129A44EC10073F06E /* AddRizzView.swift */,
+				52F8926529A45BCC0073F06E /* EditRizz.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52F8926029A44E910073F06E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52F8926329A451450073F06E /* TimeFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F8924729A4495A0073F06E /* rizzcounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F8925629A4495C0073F06E /* Build configuration list for PBXNativeTarget "rizzcounter" */;
+			buildPhases = (
+				52F8924429A4495A0073F06E /* Sources */,
+				52F8924529A4495A0073F06E /* Frameworks */,
+				52F8924629A4495A0073F06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rizzcounter;
+			productName = rizzcounter;
+			productReference = 52F8924829A4495A0073F06E /* rizzcounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F8924029A4495A0073F06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					52F8924729A4495A0073F06E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 52F8924329A4495A0073F06E /* Build configuration list for PBXProject "rizzcounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F8923F29A4495A0073F06E;
+			productRefGroup = 52F8924929A4495A0073F06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F8924729A4495A0073F06E /* rizzcounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F8924629A4495A0073F06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F8925329A4495C0073F06E /* Preview Assets.xcassets in Resources */,
+				52F8925029A4495C0073F06E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F8924429A4495A0073F06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F8924E29A4495A0073F06E /* ContentView.swift in Sources */,
+				52F8925E29A44BB10073F06E /* DataController.swift in Sources */,
+				52F8926229A44EC10073F06E /* AddRizzView.swift in Sources */,
+				52F8925C29A44AC00073F06E /* RizzModel.xcdatamodeld in Sources */,
+				52F8926629A45BCC0073F06E /* EditRizz.swift in Sources */,
+				52F8924C29A4495A0073F06E /* rizzcounterApp.swift in Sources */,
+				52F8926429A451450073F06E /* TimeFormatting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52F8925429A4495C0073F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F8925529A4495C0073F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F8925729A4495C0073F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rizzcounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W7N9822AZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BerniceArreola.rizzcounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F8925829A4495C0073F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rizzcounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W7N9822AZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BerniceArreola.rizzcounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F8924329A4495A0073F06E /* Build configuration list for PBXProject "rizzcounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F8925429A4495C0073F06E /* Debug */,
+				52F8925529A4495C0073F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F8925629A4495C0073F06E /* Build configuration list for PBXNativeTarget "rizzcounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F8925729A4495C0073F06E /* Debug */,
+				52F8925829A4495C0073F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52F8925A29A44AC00073F06E /* RizzModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52F8925B29A44AC00073F06E /* RizzModel.xcdatamodel */,
+			);
+			currentVersion = 52F8925B29A44AC00073F06E /* RizzModel.xcdatamodel */;
+			path = RizzModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52F8924029A4495A0073F06E /* Project object */;
+}
